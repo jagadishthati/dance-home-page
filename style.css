@@ -1,0 +1,178 @@
+body{
+    font-family:  'PT Serif', serif;
+    display: flex;
+    justify-content: center;
+ flex-direction: column;
+}
+.main-content-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo img{
+    width: 8vw;
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    gap: 3vw;
+    margin-right: 6vw;
+    margin-top: 7vh;
+}
+.line{
+    border-top: 3px solid black;
+    width: 33vw;
+    border-radius: 4px;
+}
+.logo{
+    position: absolute;
+top: 25px;
+left: 25px;
+z-index: 2;
+}
+.left-img  {
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+top: 0;
+left: 0;
+z-index: 1;
+}
+.left-img img   {
+    width: 32vw;
+    height: 110vh;
+}
+.social-media{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 2vw;
+    margin-left: 92%;
+    gap: 1vw;
+    margin-top: 6vh;
+}
+.crea h1{
+    font-family: 'PT Serif', serif;
+    -webkit-text-stroke:1px black;
+    color: white;
+    font-size: calc(60px + (300 - 60) * ((60vw - 300px) / (1600 - 300)));
+    padding: 2vw;
+}
+.main-content{
+    margin-left: 32%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: -54vh;
+    flex-direction: column;
+  
+}
+.tivity h1{
+    font-size: calc(60px + (300 - 60) * ((60vw - 300px) / (1600 - 300)));
+    margin-top: -25vh;
+    margin-left: 14vw;
+}
+
+.our{
+    margin-top: -32vh;
+margin-left: 44vw;
+font-size: x-large;
+font-weight: bolder;
+color: #0000005e;
+font-family:'PT Serif', serif ;
+font-size: calc(60px + (300 - 60) * ((10vw - 300px) / (1600 - 300)));
+}
+.btn button{
+    margin-left: 44vw;
+    margin-top: 1vh;
+    background: black;
+    color:white ;
+    font-size: medium;
+    font-weight: 700;
+    border: none;
+    width: 18vw;
+    padding: 1vw;
+}
+.footer{
+    margin-left: 33vw;
+    margin-top: 10vh;
+}
+.ball{
+    background-color: black;
+    width: 2vw;
+    border-radius: 50%;
+    height: 2vh;
+}
+.footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    font-size: larger;
+    font-weight: 800;
+
+}
+
+
+.col{
+    font-size: calc(60px + (300 - 60) * ((8vw - 300px) / (1600 - 300)));
+    margin-left: 58vw;
+    width: 32vw;
+    margin-top: -40vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.img{
+    width: 5vw;
+}
+.col p{
+    font-weight: 700;
+    margin-top: -1vh;
+}
+.bottom-img img{
+    width: 30vw;
+    height: 25vh;
+    margin-top: -1vh;
+
+}
+.arrow{
+    position: absolute;
+    right: 5vh;
+    width: 5vw;
+    top: 75vh;
+}
+@media screen and (max-width:1040px) {
+    .main-content{
+        margin-top: -45vh;
+    }
+    .crea h1{
+        padding: 4vw;
+    }
+    .col {
+        margin-top: -40vh;
+    }
+}
+@media screen and (max-width:1040px) {
+    .main-content{
+        margin-top: -40vh;
+    }
+    .crea h1{
+        padding: 5vw;
+    }
+    .col {
+        margin-top: -25vh;
+    }
+}
+@media screen and (max-width:950px) {
+  .tivity h1{
+    margin-top: -20vh;
+    padding-top: 2vh;
+  }
+}
+@media screen and (max-width:742px) {
+   .main-content{
+    margin-top: -33vh;
+
+   }
+  }
